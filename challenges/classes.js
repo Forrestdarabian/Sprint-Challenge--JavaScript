@@ -1,5 +1,5 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
-class CuboidMaker{
+class CuboidMake{
   constructor(props){
     this.length = props.length,
     this.width = props.width,
@@ -7,13 +7,14 @@ class CuboidMaker{
   }
 
   volume() {
-    console.log (`${this.length} * ${this.width} * ${this.height}`);
+    return (`${this.length} * ${this.width} * ${this.height}`);
   };
   surfaceArea() {
-    console.log (2 * (`${this.length} * ${this.width} + ${this.length} * ${this.height} + ${this.width} * ${this.height}`));
+    return (2 * (`${this.length} * ${this.width} + ${this.length} * ${this.height} + ${this.width} * ${this.height}`));
   }
-  
-  const cuboid = new CuboidMaker({
+}
+
+  const cuboi = new CuboidMake({
   length: '4',
   width: '5',
   height: '5'
