@@ -46,7 +46,7 @@ console.log(tyrannosaurus.period);
 tyrannosaurus.roar = function() {
   console.log("RAWERSRARARWERSARARARRRR!");  
 }
-
+console.log(tyrannosaurus.roar())
 
 
 
@@ -86,8 +86,7 @@ console.log(contactInfo);
 
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
-const uni = [];
-console.log(uni);
+
 
 
 // ==== ADVANCED Array Methods ====
@@ -119,9 +118,8 @@ console.log(animalNames);
 
 /* Request 2: .map()    
 
-The zoos need a list of all their animal's names (names only, not scientific) converted to lower case.  Create a new array named lowerCase and map over each name to convert them all to lower case.  Log the resut.*/
-
-let lowerCase = zooAnimals.map((animal_name) => `${animal_name["animal name"]. toUpperCase()}`);
+The zoos need a list of all their animal's names (names only, not scientific) converted to lower case.  Create a new array named lowerCase and map over each name to convert them all to lower case.  Log the result. */
+let lowerCase = zooAnimals.map((animal_name) => `${zooAnimals["animal_name"]. toLowerCase()}`);
 console.log(lowerCase); 
 
 /* Request 3: .filter() 
