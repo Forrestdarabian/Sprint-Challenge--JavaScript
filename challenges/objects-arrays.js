@@ -119,7 +119,7 @@ console.log(animalNames);
 /* Request 2: .map()    
 
 The zoos need a list of all their animal's names (names only, not scientific) converted to lower case.  Create a new array named lowerCase and map over each name to convert them all to lower case.  Log the result. */
-let lowerCase = zooAnimals.map((animal_name) => `${zooAnimals["animal_name"]. toLowerCase()}`);
+let lowerCase = zooAnimals.map((animal_name) => animal_name["first_name"]. toLowerCase());
 console.log(lowerCase); 
 
 /* Request 3: .filter() 

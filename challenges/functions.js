@@ -14,7 +14,15 @@ return cb(x, y)
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
-
+function add (x, y){
+return x + y;
+}
+function multiply (x, y){
+return x * y;
+}
+function greeting (first_name, last_name){
+}
+return `Hello ${first.name} ${last.name}, nice to meet you!`;
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
  consume(2,2,add); // 4
